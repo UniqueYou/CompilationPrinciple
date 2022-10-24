@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>307</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>关于</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>531</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>名称：Simple语言解释器
+作者：重庆理工大学-王淞-11903990330
+程序源码：https://gitee.com/WangSong1111/compilation-principle
+完成时间:2022/5/23
+程序包括：词法分析、语法分析、中间代码生成和中间代码解释执行
+程序亮点：文件浏览界面、多文件编辑框、生成语法树
+未完成的内容：不能执行多递归函数调用</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

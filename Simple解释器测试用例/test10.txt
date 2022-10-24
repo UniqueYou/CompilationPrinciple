@@ -1,0 +1,23 @@
+//双递归函数调用测试2：求菲波拉契数列
+int seq(int);
+main()
+{
+   int n;
+   n=read();
+   write(seq(n));
+}
+
+int seq(int m) 
+{
+      int s,a,b;
+      if(m<=2)
+          s=1;
+      else{
+           a=seq(m-1);
+           b=seq(m-2);
+           s=a+b;
+   
+      }
+      return s;
+
+}

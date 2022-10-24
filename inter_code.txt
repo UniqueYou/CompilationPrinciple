@@ -1,0 +1,19 @@
+main      	          	          	          
+=         	0         	          	i         
+call      	read      	          	$___t0    
+=         	$___t0    	          	n         
+<         	n         	1         	$___t1    
+jz        	$___t1    	          	8         
+=         	0         	          	factor    
+j         	          	          	9         
+=         	1         	          	factor    
+<         	i         	n         	$___t2    
+jz        	$___t2    	          	16        
++         	i         	1         	$___t3    
+=         	$___t3    	          	i         
+*         	factor    	i         	$___t4    
+=         	$___t4    	          	factor    
+j         	          	          	9         
+para      	factor    	          	          
+call      	write     	          	$___t5    
+sys       	          	          	          
